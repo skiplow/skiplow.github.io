@@ -8,7 +8,7 @@
     <meta name="description">
 <meta property="og:type" content="website">
 <meta property="og:title" content="iOS开发联盟">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+<meta property="og:url" content="http://leagueofios.com/archives/index.html">
 <meta property="og:site_name" content="iOS开发联盟">
 <meta property="og:description">
 <meta name="twitter:card" content="summary">
@@ -79,7 +79,7 @@
 (function ($) {
     $('.search-form').on('submit', function (e) {
         var keyword = $('.search-form-input[name="wd"]').val();
-        window.location = 'https://www.baidu.com/s?wd=site:yoursite.com ' + keyword;
+        window.location = 'https://www.baidu.com/s?wd=site:leagueofios.com ' + keyword;
         return false;
     });
 })(jQuery);
@@ -112,7 +112,7 @@
 (function ($) {
     $('.search-form').on('submit', function (e) {
         var keyword = $('.search-form-input[name="wd"]').val();
-        window.location = 'https://www.baidu.com/s?wd=site:yoursite.com ' + keyword;
+        window.location = 'https://www.baidu.com/s?wd=site:leagueofios.com ' + keyword;
         return false;
     });
 })(jQuery);
@@ -429,16 +429,15 @@ Quick</p>
 </footer>
         
     
-    <script>
-    var disqus_shortname = 'hexo-theme-icarus';
-    
-    
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'leagueofios'};
     (function() {
-    var dsq = document.createElement('script');
-    dsq.type = 'text/javascript';
-    dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
     </script>
 
